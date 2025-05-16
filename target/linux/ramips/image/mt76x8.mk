@@ -206,6 +206,13 @@ define Device/dlink_dap-1325-a1
 endef
 TARGET_DEVICES += dlink_dap-1325-a1
 
+define Device/dlink_dap-1610-a2
+  IMAGE_SIZE := 7872k
+  DEVICE_VENDOR := D-Link
+  DEVICE_MODEL := DAP-1610 A2
+endef
+TARGET_DEVICES += dlink_dap-1610-a2
+
 define Device/duzun_dm06
   IMAGE_SIZE := 7872k
   DEVICE_VENDOR := DuZun
